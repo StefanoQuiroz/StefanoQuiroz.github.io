@@ -126,7 +126,7 @@ class Game{
     
     startGame(){
         this.sfx.click.play();
-        const parts = ["una carroceria", "una antena", "un motor", "tubos de escape", "las ruedas"];
+        const parts = ["una Carroceria", "una Antena", "un Motor", "Tubos de Escape", "Las Ruedas"];
         let index = 0;
         let configured = true;
         this.carGUI.forEach(function(item){
