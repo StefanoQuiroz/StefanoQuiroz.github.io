@@ -126,12 +126,12 @@ class Game{
     
     startGame(){
         this.sfx.click.play();
-        const parts = ["a Body", "an Aerial", "an Engine", "an Exhaust", "some Wheels"];
+        const parts = ["una carroceria", "una antena", "un motor", "tubos de escape", "las ruedas"];
         let index = 0;
         let configured = true;
         this.carGUI.forEach(function(item){
            if (item==0){
-               showMessage(`Please select ${parts[index]}`);
+               showMessage(`Por favor seleccione ${parts[index]}`);
                configured = false;
            }
             index++;
